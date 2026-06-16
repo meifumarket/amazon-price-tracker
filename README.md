@@ -6,6 +6,8 @@
 
 **Amazon Product Intelligence Tracker** 是一款专为跨境电商、市场分析师和产品经理设计的端到端数据采集工具。它不仅能高效抓取商品价格和评论，还能将原始数据直接转化为可用于决策的 **Excel 商业报表（含自动化趋势图表）**。
 
+![Price Trends Preview](./preview.png)
+
 ---
 
 ## 🚀 核心价值 (Why this tool?)
