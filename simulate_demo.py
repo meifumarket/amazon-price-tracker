@@ -9,14 +9,14 @@ from src.exporter import export_products_excel
 asins = ["B0FKTFMH2F", "B08N5WRWNW", "B0BSHF7WHW", "B0C1234567", "B0D9876543"]
 products_data = []
 
-print("Generating simulation data for competitive analysis...")
+print("Generating professional competitive analysis matrix...")
 
 for asin in asins:
-    # 基础价格
     base_price = random.uniform(100, 200)
     
-    # 模拟过去 7 天的价格走势
     for i in range(7):
+        # 模拟过去 7 天的日期
+        date_val = (datetime.now() - timedelta(days=6-i)).strftime("%Y-%m-%d")
         # 随机波动 +/- 5%
         price = base_price * (1 + random.uniform(-0.05, 0.05))
         
@@ -30,15 +30,16 @@ for asin in asins:
             availability="In Stock",
             url=f"https://www.amazon.com/dp/{asin}"
         )
+        # 【关键】：注入 date 属性，新版 exporter 会识别这个属性来构建时间轴
+        p.date = date_val
         products_data.append(p)
 
-# 创建输出目录
 os.makedirs("output", exist_ok=True)
 
-# 调用原有的导出函数
 try:
+    # 使用新版 export_products_excel
     export_products_excel(products_data, out_path="output/competitive_analysis_demo.xlsx")
     print("\n✓ Success: 'output/competitive_analysis_demo.xlsx' generated.")
-    print("This file now contains a price trend matrix for 5 products over 7 days.")
+    print("Now open the file and check the 'Price Trends' sheet for the chart!")
 except Exception as e:
     print(f"\n❌ Error: {e}")
