@@ -3,10 +3,16 @@
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Status: Production Ready](https://img.shields.io/badge/Status-Production--Ready-green.svg)]()
+[![GitHub stars](https://img.shields.io/github/stars/meifumarket/amazon-price-tracker.svg?style=social)](https://github.com/meifumarket/amazon-price-tracker/stargazers)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)]()
+[![Made for e-commerce](https://img.shields.io/badge/Made%20for-eCommerce-orange.svg)]()
 
 **English:**
-**Amazon Product Intelligence Tracker** is an end-to-end data collection tool designed for cross-border e-commerce sellers, market analysts, and product managers. It not only efficiently scrapes product prices and reviews but also transforms raw data into decision-ready **Business Excel Reports (with automated trend charts)**.
+**Amazon Product Intelligence Tracker** is an end-to-end data collection tool designed for cross-border e-commerce sellers, market analysts, and product managers. It not only efficiently scrapes product prices and reviews 
+but also transforms raw data into decision-ready **Business Excel Reports (with automated trend charts)**.
 
+> ⭐ **If this saved you time, give it a star — it helps other sellers find this tool.**
+> 🚀 **Need custom scraping, dashboard, or LLM-powered analysis? Hire the author on Fiverr →** [fiverr.com/meifumarket](https://www.fiverr.com/meifumarket)
 **中文：**
 **Amazon Product Intelligence Tracker** 是一款专为跨境电商、市场分析师和产品经理设计的端到端数据采集工具。它不仅能高效抓取商品价格和评论，还能将原始数据直接转化为可用于决策的 **Excel 商业报表（含自动化趋势图表）**。
 
@@ -42,7 +48,7 @@ In a competitive e-commerce environment, manually monitoring competitor prices i
 
 ### 1. Clone Repository / 克隆仓库
 ```bash
-git clone https://github.com/your-username/amazon-price-tracker.git
+git clone https://github.com/meifumarket/amazon-price-tracker.git
 cd amazon-price-tracker
 ```
 
@@ -115,7 +121,10 @@ If you need more powerful data collection solutions, I provide the following cus
 - ✅ **智能分析**：集成 LLM (GPT-4/DeepSeek) 对海量评论进行情感分析与痛点总结。
 - ✅ **数据可视化看板**：将数据对接至 Grafana 或 Streamlit，构建实时价格监控大屏。
 
-📩 **Contact / 联系方式**: [Your GitHub / Email / LinkedIn]
+📩 **Contact / 联系方式**: 
+- **Fiverr**: [fiverr.com/meifumarket](https://www.fiverr.com/meifumarket) (preferred)
+- **GitHub**: [@meifumarket](https://github.com/meifumarket)
+- **Email**: 858679@qq.com
 
 ---
 
